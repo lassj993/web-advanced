@@ -1,0 +1,28 @@
+a, h1, p {
+	font-family: 'IM Fell English', serif;
+	font-weight: lighter;
+	color: black;
+	text-decoration: none;
+
+}
+
+.margin {
+	margin-left: 50%;
+}
+
+.contents {
+	margin-left: 50%;
+	
+
+}
+.intro {
+	max-width: 40%;
+	position: fixed;
+	top: 58%;
+
+}
+
+.body-text {
+	margin-left: 50%;
+	margin-right: 170px;
+}
