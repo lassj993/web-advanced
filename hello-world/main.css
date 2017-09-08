@@ -26,3 +26,59 @@ a, h1, p {
 	margin-left: 50%;
 	margin-right: 170px;
 }
+
+.poems {
+	max-height: 95%;
+	position: absolute;
+	left: 10%;
+}
+
+.back-main {
+	margin-left: 1%;
+	position: absolute;
+	top: 0;
+}
+
+.container-multiple {
+	margin-top: 10%;
+	margin-left: 20%;
+}
+
+.poems-m {
+	max-height: 400px;
+}
+
+.drag {
+	float: left;
+	line-height: 0px;
+	font-size: 13px;
+}
+
+.drag:hover {
+	cursor: pointer;
+}
+
+.main {
+	position: absolute;
+	bottom: 20px;
+	margin-left: 50%;
+	margin-right: 170px;
+}
+
+#f p {
+	font-weight: bolder;
+}
+
+#f1 p {
+	font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
