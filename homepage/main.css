@@ -1,0 +1,31 @@
+.main {
+	font-size: 30px;
+	margin-left: 5%;
+	font-family: 'Roboto Mono', monospace;
+	text-shadow: 1px 0px 30px pink;
+}
+
+.desc {
+	font-size: 20px;
+	margin-left: 5%;
+	font-family: 'Roboto Mono', monospace;
+	text-shadow: 1px 0px 30px pink;
+}
+
+.list a {
+	font-family: 'Roboto Mono', monospace;
+	margin-left: 2.5%;
+	list-style: none;
+	color: black;
+	text-decoration: none;
+}
+
+.list li {
+	list-style: none;
+
+}
+
+a:hover {
+	text-shadow: 1px 0px 30px blue;
+}
+
