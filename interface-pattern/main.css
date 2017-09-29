@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h1 {
+	position: absolute;
+	z-index: 3;
+	font-family: helvetica;
+	font-size: 20px;
+	top: 43vh;
+	left: 16%;
+}
+
+.side {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+#one { 
+	left: 0;
+	background-color: white; 
+}
+
+#one:hover { 
+	cursor: pointer; 
+}
+
+#two { 
+	right: 0; 
+	background-color: black;
+}
+
+#three { 
+	left: 0; 
+	top: 100vh;
+	background-color: black;
+	position: absolute;
+	animation-name: example;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    0%   {top: 100vh;}
+   	100% {top: 0vh;}
+
+   
+}
+
+
+
+
+
