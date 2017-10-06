@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+h1 {
+	color: white;
+	position: absolute;
+	z-index: 3;
+	font-family: helvetica;
+	font-size: 20px;
+	top: 43vh;
+	left: 20%;
+}
+
+h2 {
+	position: absolute;
+	z-index: 3;
+	font-family: helvetica;
+	font-size: 20px;
+	top: 45vh;
+	left: 20%;
+}
+
+.side {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#one { 
+	left: 0;
+	background-color: lightpink; 
+}
+
+#one:hover { 
+	cursor: pointer; 
+}
+
+#three { 
+	left: 0; 
+	top: 100vh;
+	background-color: black;
+	position: absolute;
+	animation-name: example;
+    animation-duration: 120s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@media screen and (max-width: 790px) {
+    #one {
+        background-color: white;
+    }
+    h1 {
+    	color: black;
+    }
+}
+@media screen and (max-width: 780px) {
+    #one {
+        background-color: yellow;
+    }
+}
+
+
+a {
+	z-index: 4;
+	color: red;
+}
+
+
+
+
+
+/*@keyframes example {
+    0%   {top: 100vh;}
+   	100% {top: 0vh;}
+
+   
+}*/
+
+
+
+
+
