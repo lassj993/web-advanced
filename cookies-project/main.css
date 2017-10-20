@@ -11,20 +11,8 @@ body {
 	-webkit-animation: Gradient 20s ease infinite;
 	-moz-animation: Gradient 20s ease infinite;
 	animation: Gradient 20s ease infinite;
-	
-}
-
-#click {
-	width: 100%;
-	height: 1px;
-	background-color: black;
-	position: absolute;
-	top: 10px;
 
 }
-
-
-
 
 @-webkit-keyframes Gradient {
 	0% {
