@@ -2250,7 +2250,7 @@
 						"background-color" : "hsl(15, 100%, 60%)"
 					});
 				} 
-				seventeenthCall();
+				
 				}
 			getJSON();
 		}
