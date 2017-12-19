@@ -1,0 +1,250 @@
+
+#div1 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-left: -10px;
+	margin-top: -10px;
+	
+
+}
+
+#div2 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-top: -10px;
+
+}
+#div3 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-top: -10px;
+}
+#div4 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-top: -10px;
+}
+#div5 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+	margin-top: -10px;
+}
+#div6 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-left: -10px;
+	
+}
+#div7 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	
+}
+#div8 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	
+}
+#div9 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	
+}
+#div10 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div11 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-left: -10px;
+}
+#div12 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div13 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div14 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div15 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div16 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+	margin-left: -10px;
+
+}
+#div17 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div18 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div19 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+#div20 {
+	width: 20%;
+	height: 25vh;
+	background-color: white;
+	float: left;
+
+}
+
+
+.p {
+	padding-left: 14px;
+	position: absolute;
+	margin-top: 22vh;
+	font-size: 10px;
+	color: white;
+	font-family: 'Inconsolata', monospace;
+	font-weight: lighter; 
+
+}
+
+.a, .aa, .c, .d {
+	/*position: absolute;*/
+	max-width: 90%;
+	display: inline-block;
+	padding-left: 14px;
+	font-size: 20px;
+	color: darkblue;
+	font-family: 'Inconsolata', monospace;
+	word-break: break-all;
+
+
+}
+
+.h {
+
+	max-width: 90%;
+	display: inline-block;
+	padding-left: 125px;
+	font-size: 10px;
+	color: darkblue;
+	font-family: 'Inconsolata', monospace;
+	word-break: break-all;
+	position: absolute;
+	margin-top: 22vh;
+	
+	
+}
+.t {
+	max-width: 90%;
+	display: inline-block;
+	padding-left: 195px;
+	font-size: 10px;
+	color: darkblue;
+	font-family: 'Inconsolata', monospace;
+	word-break: break-all;
+	position: absolute;
+	margin-top: 22vh;
+	
+	
+}
+
+
+
+
+p{
+  color: lime; 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(60, end); 
+}
+
+p:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+p a{
+  color: lime;
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+
+
+
