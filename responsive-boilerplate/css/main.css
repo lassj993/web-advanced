@@ -25,3 +25,69 @@ body{
 
 
 }
+
+@media screen and (max-width: 1000px) {
+
+	body{
+		background-color: pink;
+	}
+
+	#main{
+	font-family: helvetica;
+	font-size: 8rem;
+	background-color: blue;
+	margin-left: 45px;
+    width: 50vw;
+    margin-bottom: -100px;
+	}
+
+.stuff {
+	font-family: helvetica;
+	width: 50vw;
+	font-size: 6rem;
+	margin-left: 75px;
+	background-color: white;
+    width: 50vw;
+    margin-top: -100px;
+	}	
+}
+
+@media screen and (max-width: 700px) {
+
+	body{
+		background-color: yellow;
+	}
+
+	#main{
+	font-family: helvetica;
+	font-size: 8rem;
+	background-color: blue;
+	margin-left: 45px;
+    width: 50vw;
+    margin-bottom: -100px;
+	}
+
+.stuff {
+	font-family: helvetica;
+	width: 50vw;
+	font-size: 6rem;
+	margin-left: 75px;
+	background-color: white;
+    width: 50vw;
+    margin-top: -100px;
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
